@@ -1,0 +1,47 @@
+@font-face {
+    font-family: samarkan;
+    src: url("/fonts/samarkan.TTF");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.content-box:hover {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.content-box{
+    font-size:larger;
+}
+
+.content-box {
+    vertical-align: middle;
+    padding: 25px;
+    border-radius: 25px;
+    border: 2px;
+    border-style: dashed;
+    border-color: white;
+    width: 200px;
+    align-items: center;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 19%, rgba(88,27,6,1) 61%, rgba(255,0,0,1) 86%) no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+html {
+    min-height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: samarkan;
+    padding-bottom: 20px;
+}
