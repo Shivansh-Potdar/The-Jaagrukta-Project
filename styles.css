@@ -73,4 +73,8 @@ html {
 h1 {
     font-family: samarkan;
     padding-bottom: 20px;
+
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 19%, rgba(88,27,6,1) 61%, rgba(255,0,0,1) 86%) no-repeat;
+    background-size: cover;
 }
