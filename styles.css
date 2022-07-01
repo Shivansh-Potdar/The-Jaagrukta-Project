@@ -22,8 +22,34 @@
     border-color: white;
     width: 200px;
     align-items: center;
+    margin:0 auto;
 
     font-family: 'Times New Roman', Times, serif;
+}
+
+#TJP{
+    position: relative;
+    top: 0;
+}
+
+#TJP img {
+    position: absolute;
+    left: 0;
+
+    border-radius: 15px;
+}
+
+.contact-us {
+    position: absolute;
+    bottom: 0;
+
+    padding: 20px;
+
+    font-size: larger;
+}
+
+.contact-us a {
+    color: white;
 }
 
 body {
@@ -34,6 +60,8 @@ body {
     background: linear-gradient(45deg, rgba(0,0,0,1) 19%, rgba(88,27,6,1) 61%, rgba(255,0,0,1) 86%) no-repeat;
     background-size: cover;
     color: aliceblue;
+
+    text-align: center;
 }
 
 html {
