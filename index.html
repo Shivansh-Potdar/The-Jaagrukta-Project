@@ -7,13 +7,15 @@
 
         <link rel="icon" href="./images/logo.jpg" type="image/jpg">
         <link href="styles.css" rel="stylesheet" >
-        <script src="main.js"></script>
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=0.75">
 
         <meta name="keywords" content="Fundraiser, Educate Girls, Education, Girls, School, Awareness, India">
         <meta name="author" content="thejaagruktaproject">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="main.js"></script>
     </head>
     
     <body>
@@ -26,20 +28,23 @@
         </h1>
         
         <div class="main-content">
-            <div class="content-box" id="educate-ngo" onclick="open_link('https://www.educategirls.ngo/')">
+            <div class="content-box" id="educate-ngo" onclick="open_link('https://www.educategirls.ngo/')" 
+            onmouseover="ShowText('ed-t')" onmouseout="HideText('ed-t')">
                 <img src="https://www.educategirls.ngo/images/eg-logo-sm.png" width="15%" height="1%">
                 <span id="edugirls-link">Educate Girls</span>
-            </div><br>
+            </div><p class="hidden-text" id="ed-t">Click here to visit the Egudate girls website!</p><br>
     
-            <div class="content-box" id="ngo-india" onclick='open_link("https://bit.ly/EGInternJun22")'>
+            <div class="content-box" id="ngo-india" onclick='open_link("https://bit.ly/EGInternJun22")'
+            onmouseover="ShowText('fun-i')" onmouseout="HideText('fun-i')">
                 <img src="https://www.educategirls.ngo/images/eg-logo-sm.png" width="10%" height="1%">
                 <span id="fund-in">Fundraiser (INR)</span>
-            </div><br>
+            </div><p class="hidden-text" id="fun-i">Click here if you're donating in Indian Rupees</p><br>
     
-            <div class="content-box" id="ngo-us" onclick='open_link("https://educategirls.us/donate/?utm_source=intern&utm_medium=social&utm_campaign=internjun22")'>
+            <div class="content-box" id="ngo-us" onclick='open_link("https://educategirls.us/donate/?utm_source=intern&utm_medium=social&utm_campaign=internjun22")'
+            onmouseover="ShowText('us-d')" onmouseout="HideText('us-d')">
                 <img src="https://www.educategirls.ngo/images/eg-logo-sm.png" width="10%" height="1%">
                 <span id="fund-us">Fundraiser (USD)</span>
-            </div><br>
+            </div><p class="hidden-text" id="us-d">Click here if you're donating in USD (if you aren't an Indian citizen)</p><br>
     
             <div class="content-box" id="instagram" onclick='open_link("https://instagram.com/thejaagruktaproject/")'>
                 <img src="./images/instagram_logo.png" width="10%" height="1%">

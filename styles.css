@@ -83,3 +83,8 @@ h1 {
     font-family: samarkan;
     padding-bottom: 20px;
 }
+
+
+p{
+    display: none;
+}
